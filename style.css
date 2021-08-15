@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+}
+
+.landing-page-img{
+  width: 90vw;
+  height: 100vh;
+}
+
+.landing-page-button{
+  z-index: 1px;
+  font-size: 25px;
+}
+
+.container-choice{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.resultsImg{
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  width: 50vw;
+}
