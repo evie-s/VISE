@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"> 
+        <img src="media/logo.png" width="150" height="150">
+      </a>
+    </nav>
+    <div class="container-div"> 
+      <center>
+        <img class="landing-page-img" src="media/cta.png">
+        <img class="landing-page-button" src="media/button.png" width="200" height="100" onClick="document.getElementById('middle').scrollIntoView();">
+      <br>
+      <br>
+      <br>
+      </center>
+      <div class="container-div-2">
+        <center>
+
+          <h2 id="middle"> Find the best 'socially good' activity for you. </h2>
+
+          <p class="quiz-p"> Do you like the outdoors? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q1a" onclick="questionOne('a')" src="media/yes.png">
+            <img class="choice-div" id="q1b" onclick="questionOne('b')" src="media/no.png">
+          </div>
+
+          <p class="quiz-p" id="middle"> Are you introverted or extroverted? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q2a" onclick="questionTwo('a')" src="media/introverted.png">
+            <img class="choice-div" id="q2b" onclick="questionTwo('b')" src="media/extroverted.png">
+          </div>
+
+          <p class="quiz-p" id="middle"> Would you rather work alone or with a team? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q3a" onclick="questionThree('a')" src="media/alone.png">
+            <img class="choice-div" id="q3b" onclick="questionThree('b')" src="media/team.png">
+          </div>
+
+          <p class="quiz-p" id="middle"> Feeling Creative? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q4a" onclick="questionFour('a')" src="media/yes.png">
+            <img class="choice-div" id="q4b" onclick="questionFour('b')" src="media/no.png">
+          </div>
+
+          <p class="quiz-p" id="middle"> Do you like math and science or english and art? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q5a" onclick="questionFive('a')"  src="media/math-and-science.png">
+            <img class="choice-div" id="q5b" onclick="questionFive('b')" src="media/english-and-art.png">
+          </div>
+
+          <p class="quiz-p" id="middle"> Would you like to pursue a long-term or short-term project? </p>
+          <div class="container-choice">
+            <img class="choice-div" id="q7a" onclick="questionSeven('a')" src="media/long-term.png">
+            <img class="choice-div" id="q7b" onclick="questionSeven('b')" src="media/short-term.png">
+          </div>
+
+          <a href="results.html"> 
+            <img src="media/results.png" width="200" height="100" onclick="results()">
+          </a>
+
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
